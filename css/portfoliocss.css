@@ -8,8 +8,11 @@
     "wdth" 100;
 }
 
-/*Text-color*/
 
+
+
+
+/* Share style*/
 
 
 .dark-1{
@@ -25,11 +28,30 @@
 }
 
 
-/* tex style*/
 
 .text-primary{
     color: #FD6E0A;
 }
+
+.secondary-bg{
+    background-color: #FFF8F3;
+}
+.title-style-share{
+    font-weight: bolder;
+    font-size: 35px;
+    color: #181818;
+    text-align: center;
+    margin: 0;
+}
+.about-description-share{
+   /* border: 2px solid red;*/
+height: 120px;
+width: 827px;
+text-align: center;
+font-size: 18px;
+ color: #757575;
+}
+
 
 /* Nav styles */
 
@@ -88,6 +110,7 @@ ul li a {
     align-items: center;
     justify-content: space-between;
     margin-left: 230px;
+    margin-bottom: 0px;
 }
 
 .banner-img{
@@ -149,4 +172,58 @@ margin-right: 30px;
     background-image: url(../images/developer.png), url(../images/header_bg.png);
     background-repeat: no-repeat;
     background-position: top left, bottom right;
+}
+
+/*--------main-section-----*/
+
+main{
+    height: 550px;
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.about{
+    height: 550px;
+ margin-top: 130px;
+ border: 2px solid white;
+ border-radius: 10px;
+ 
+}
+
+.container-item{
+    height: auto;
+    width: 827px;
+    margin: 131px 150px; 
+    border: 2px solid #000000; 
+    background-color: #FFFFFF;
+}
+
+.items{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    text-align: center;
+    width: 782px;
+    height: 60px;
+    margin-left: 22.5px;
+    /*border: 2px solid rebeccapurple;*/
+}
+
+
+
+.about-item{
+ /*width: 118px;
+ height: 60px;*/
+}
+
+
+.about-title{
+font-size: 20px;
+ color: #757575;
+}
+.item-description{
+    font-weight: bold;
+    font-size: 20px;
+    
 }
